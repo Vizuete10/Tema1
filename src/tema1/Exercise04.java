@@ -9,21 +9,21 @@ public class Exercise04 {
 		Scanner sc = new Scanner(System.in);
 				
 		// Declaramos las variables
-		double primeraNota;
-		double segundaNota;
+		int primeraNota;
+		int segundaNota;
 		double mediaAritmetica;
 		
 		// Pedimos la primera nota y la leemos en la consola
 		System.out.println("Introduza su primera nota:");
-		primeraNota = sc.nextDouble();
+		primeraNota = sc.nextInt();
 		
 		// Pedimos la segunda nota y la leemos en la consola
 		System.out.println("Introduza su segunda nota:");
-		segundaNota= sc.nextDouble();
+		segundaNota= sc.nextInt();
 		
-		mediaAritmetica = (primeraNota + segundaNota)/2;
+		mediaAritmetica = (primeraNota + segundaNota)/2.0;
 		
-		System.out.println("Su media aritmetica seria:" + mediaAritmetica);
+		System.out.println("Su media aritmetica seria: " + mediaAritmetica);
 		
 		// Cerramos el Scanner
 		sc.close();
