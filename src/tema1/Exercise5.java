@@ -13,7 +13,7 @@ public class Exercise5 {
 		double longitud;
 		double area;
 		
-		
+		// Pedimos introducir el radio
 		System.out.println("Introduce el radio: ");
 		radio = sc.nextDouble();
 		
