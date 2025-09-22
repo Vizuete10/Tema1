@@ -17,6 +17,18 @@ public class Exercise5 {
 		System.out.println("Introduce el radio: ");
 		radio = sc.nextDouble();
 		
+		// Calculamos la longitud
+		longitud = 2 * Math.PI * radio;
+		
+		// Calculamos el área
+		area = Math.PI * radio * radio;
+		
+		// Imprimimos la longitud
+		System.out.println("La longitud es: " + longitud);
+		
+		// Imprimimos el área
+		System.out.println("El área es: " + area);
+		
 		// Cerramos el Scanner
 		sc.close();
 	}
