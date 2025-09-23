@@ -2,7 +2,7 @@ package tema1;
 
 import java.util.Scanner;
 
-public class Exercise5 {
+public class Exercise05 {
 
 	public static void main(String[] args) {
 		// Creamos un Scanner
@@ -38,6 +38,7 @@ public class Exercise5 {
 		
 		// Cerramos el Scanner
 		sc.close();
+		System.out.println();
 	}
 
 }
