@@ -35,18 +35,33 @@ public class Exercise06 {
 		System.out.println("Introduzca otro numero:");
 		segundoNumero = sc.nextDouble();
 		
-		// Realizamos las cuentas
+		// Realizamos la suma
 		suma = primerNumero + segundoNumero;
+		
+		// Realizamos la resta
 		resta = primerNumero - segundoNumero;
+		
+		// Realizamos la división
 		division = primerNumero / segundoNumero;
+		
+		// Realizamos la multiplicación
 		multiplicacion = primerNumero * segundoNumero;
 		
-		// Imprimimos las cuentas
+		// Imprimimos la solución de la suma
 		System.out.println("La suma de ambos es:"+ suma);
+		
+		// Imprimimos la solución de la resta
+
 		System.out.println("La resta de ambos es:"+ resta);
+		
+		// Imprimimos la solución de la división
+
 		System.out.println("La división de ambos es:"+ division);
+		
+		// Imprimimos la solución de la multiplicación
 		System.out.println("La multiplicación de ambos es:"+ multiplicacion);
 		
+		// Cerramos el Scanner
 		sc.close();
 		
 		
