@@ -28,11 +28,9 @@ public class Exercise04 {
 		// Calculamos la media aritmetica
 		mediaAritmetica = (primeraNota + segundaNota)/2.0;
 		
-<<<<<<< HEAD
-		// Impimimos la media aritmetica
-=======
+
+		
 		// Imprimimos la nota media
->>>>>>> branch 'master' of https://github.com/Vizuete10/Tema1.git
 		System.out.println("Su media aritmetica seria: " + mediaAritmetica);
 		
 		// Cerramos el Scanner
