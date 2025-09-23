@@ -31,7 +31,7 @@ public class Exercise5 {
 		area = Math.PI * radio * radio;
 		
 		// Imprimimos la longitud
-		System.out.println("La longitud es: " + longitud);
+		System.out.println("La longitud es: " + longitud); 
 		
 		// Imprimimos el área
 		System.out.println("El área es: " + area);
