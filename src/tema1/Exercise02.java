@@ -8,15 +8,21 @@ public class Exercise02 {
         //  Creamos un Scanner
         Scanner sc = new Scanner(System.in);
         
-        // Pedir al usuario su edad
+        // Declaramos la variable para la edad actual
+        int edadActual;
+        
+        // Declaramos la vartiable para la edad del año que viene
+        int edadProximoAño;
+        
+        // Pedir al usuario su edad, y lo leemos en la consola
         System.out.print("Por favor, introduce tu edad actual: ");
-        int edadActual = sc.nextInt();
+        edadActual = sc.nextInt();
 
         // Calcular la edad del próximo año
-        int edadProximoAnio = edadActual + 1;
+        edadProximoAño = edadActual + 1;
 
         // Mostrar la edad del próximo año
-        System.out.println("Su edad el año que viene sera de " + edadProximoAnio + " años.");
+        System.out.println("Su edad el año que viene sera de " + edadProximoAño + " años.");
 
         // Cerrar el scanner 
         sc.close();

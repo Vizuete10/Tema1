@@ -8,9 +8,13 @@ public class Exercise03 {
 		// Creamos un Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables
+		// Declaramos la variable para el año actual
 		int añoActual;
+		
+		// Declaramos la variable para el año de nacimiento
 		int añoNacimiento;
+		
+		// Declaramos la variable de la edad
 		int edad;
 		
 		// Pedimos el año en el que estamos y leemos en la consola
