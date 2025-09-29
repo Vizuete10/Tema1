@@ -1,10 +1,11 @@
-package tema1;
+package parte1;
 
 import java.util.Scanner;
 
 public class Exercise08 {
 
 	public static void main(String[] args) {
+		
 		// Crear un objeto Scanner para leer la entrada del usuario
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,6 +25,9 @@ public class Exercise08 {
 
 		// Mostrar el mensaje por pantalla
 		System.out.println("Hola " + nombre + ", tienes " + edad + " años, ¡qué mayor eres!");
+		
+		// Cerramos el Scanner
+		sc.close();
 	}
 
 }

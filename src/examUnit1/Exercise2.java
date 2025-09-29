@@ -1,4 +1,4 @@
-package ExamUnit1;
+package examUnit1;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Exercise2 {
 		// Declaramos las variables necesarias
 		
 		// Número de horas trabajadas
-		double horaTrabajo;  
+		int horaTrabajo;  
 		
 		// Precio por cada hora trabajada
 		double precioPorHora; 
@@ -37,14 +37,14 @@ public class Exercise2 {
 		
 		// Pedimos al usuario cuántas horas trabajó
 		System.out.println("¿Cuántas horas trabaja? ");
-		horaTrabajo = sc.nextDouble();
+		horaTrabajo = sc.nextInt();
 		
 		// Pedimos al usuario el precio por hora
 		System.out.println("¿Cuál es el precio por hora? ");
 		precioPorHora = sc.nextDouble();
 		
 		// Calculamos el salario bruto
-		salarioBruto = horaTrabajo * precioPorHora;
+		salarioBruto = (double)horaTrabajo * precioPorHora;
 		
 		// Determinamos el impuesto: 10% si <1000, 15% si >=1000
 		impuesto = (salarioBruto < 1000) ? 0.10 : 0.15;
