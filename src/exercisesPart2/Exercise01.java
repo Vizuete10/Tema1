@@ -16,33 +16,34 @@ public class Exercise01 {
 		 *END
 		 */
 		
-		// Creamos un Scanner
+		// Create a Scanner
 		Scanner sc = new Scanner(System.in);
-		
-		// Declaramos las variables para el precio sin las taxas, las taxas y el precio con taxas
+
+		// Declare variables for the price without tax, the tax, and the price with tax
 		double precioSinTax;
 		double taxas;
 		double precioConTax;
-		
-		// Imprimimos el nombre del programa
-		System.out.println("Calculador de precio con taxas");
-		
-		// Pedimos que nos intruduza el precio
-		System.out.println("Introduce el precio: ");
+
+		// Print the name of the program
+		System.out.println("Price calculator with taxes");
+
+		// Ask the user to enter the price
+		System.out.println("Enter the price: ");
 		precioSinTax = sc.nextDouble();
-		
-		// Pedimos el valor de las taxas en %
-		System.out.println("Introduce el valor de las taxas (%): ");
+
+		// Ask the user to enter the tax value in %
+		System.out.println("Enter the tax value (%): ");
 		taxas = sc.nextDouble();
-		
-		// Calculamos el precio con taxas
-		precioConTax = precioSinTax * (1 + taxas/100);
-		
-		// Imprimimos el precio con taxas
-		System.out.println("El nuevo precio es: "+ precioConTax);
-	
-		// Cerramos el Scanner
+
+		// Calculate the price with tax
+		precioConTax = precioSinTax * (1 + taxas / 100);
+
+		// Print the price with tax
+		System.out.println("The new price is: " + precioConTax);
+
+		// Close the Scanner
 		sc.close();
+
 		
 	}
 
